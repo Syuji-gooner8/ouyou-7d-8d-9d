@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="/"><span>Bookers</span></a>
-
+     
         <div class="navbar-nav ml-auto">
         <% if user_signed_in? %>
             <%= link_to user_path(current_user.id),class:"nav-link text-light p-1" do %>
@@ -38,5 +38,7 @@
       </div>
     </div>
   </nav>
+ 
   <br><br><br>
 </header>
+
