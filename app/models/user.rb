@@ -46,7 +46,7 @@ class User < ApplicationRecord
       @user = User.where("name LIKE?","#{word}%")
     elsif search == "backward_match"
       @user = User.where("name LIKE?","%#{word}")
-    elsif search == "searches_match"
+    elsif search == "search_match"
       @user = User.where("name LIKE?","%#{word}%")
     else
       @user = User.all
