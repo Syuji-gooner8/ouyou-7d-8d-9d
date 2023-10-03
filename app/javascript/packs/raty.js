@@ -1,4 +1,4 @@
-/*!
+/*
  * Raty - A Star Rating Plugin
  *
  * The MIT License
